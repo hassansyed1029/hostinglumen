@@ -56794,6 +56794,6 @@ const LumenAISearch = (props) => {
 function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(LumenAISearch, { api_key: "WafU53x2B8z5L9mHYwdvrze61uMUEoE7" }) });
 }
-client.createRoot(document.getElementById("root")).render(
+client.createRoot(document.getElementById("lumen-search-widget")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}) })
 );
