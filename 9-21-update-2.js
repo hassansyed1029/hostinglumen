@@ -55871,7 +55871,7 @@ function prev() {
     column = 1, line--;
   return character;
 }
-function next() {
+const next = function() {
   character = position < length ? charat(characters, position++) : 0;
   if (column++, character === 10)
     column = 1, line++;
